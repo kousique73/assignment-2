@@ -139,5 +139,57 @@ text-transform: uppercase;
     width: 600px;
     margin-bottom: 25%;
 }
+/* end goat  */
+/* online game  */
 
+.game-title{
+    color: #0B0223;
+text-align: center;
+font-family: Work Sans;
+font-size: 48px;
+font-weight: 700;
+}
+.game-title span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-family: Work Sans;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.game-description{
+    color: #534C64;
+text-align: center;
+font-family: Work Sans;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px; 
+margin-bottom: 40px;
+}
+
+.online-game-title{
+    display: flex;
+    justify-content: space-around;
+}
+.online-game-img{
+    
+    gap: 30px;
+    width: 342px;
+height: 400px;
+display: flex;
+margin-left:2%;
+border-radius: 15px;
+}
+.online-game-title{
+    color: #534C64;
+font-family: Work Sans;
+font-size: 20px;
+font-weight: 500;
+line-height: 30px;
+margin-top: 15px;
+}
+/* end online game  */
 
