@@ -25,7 +25,7 @@ padding: 0;
 .header-image{
     margin-right: 25px;
 }
-.nav-special{
+.nav-special, .footer-image-title h1 span{
     color: #FF42A5;
 }
 .nav-title{
@@ -51,9 +51,16 @@ padding: 0;
     
     border-radius: 7px;
 background: rgba(11, 2, 35, 0.10);
-padding: 14px 30px;
+padding: 14px 40px;
+display: flex;
+justify-content:center ;
+align-items: center;
 
 }
+.nav-icon ul{
+    row-gap: 10px;
+}
+
  /* nav end  */
 
 /* goat section  */
@@ -149,7 +156,7 @@ font-family: Work Sans;
 font-size: 48px;
 font-weight: 700;
 }
-.game-title span{
+.game-title span, .instant-title span{
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
 background-clip: text;
 -webkit-background-clip: text;
@@ -191,5 +198,136 @@ font-weight: 500;
 line-height: 30px;
 margin-top: 15px;
 }
+.online-game-img-special{
+    background-image: url("../logo/play-button 1.png");
+}
 /* end online game  */
+/* instant game  */
+.instant-play{
+   display: flex;
+   margin-top: 15%;
+   justify-content: space-around;
+   width: 100%;
+
+}
+.instant-title{
+   text-align: right;
+   margin-top: 250px;
+   margin-left: 100px;   
+}
+.instant-title h1{
+    color: #0B0223;
+font-family: Work Sans;
+font-size: 48px;
+font-weight: 700;
+line-height: 60px;
+}
+.instant-description{
+    color: #534C64;
+text-align: right;
+font-family: Work Sans;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px; 
+}
+.instant-img img{
+    border-radius: 8px;
+}
+.instant-img-two img{
+    position: relative;
+    width: 250px;
+    height: 300px;
+    bottom: 200px;
+    margin-right: 140px;
+
+}
+ /* end instant game  */
+ /* catagory section  */
+
+.catagory{
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    margin-top: 3%;
+    padding: 100px 250px;
+
+}
+.all-catagory{
+    display: flex;
+    justify-content: center; 
+    width: 100%;
+    gap: 20px;
+}
+.catagory-button{
+    border: 1px solid #FFF;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    border-radius: 40px;
+    border-radius: 40px;
+   gap: 20px;
+   
+}
+
+/* footer section  */
+.footer-all{
+    background-color: #0B0223;
+    /* width: 100%; */
+    height: auto;
+    text-align: center;
+    padding: 50px 250px;
+}
+.footer-image-title{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 50px;
+}
+.footer-image-title h1{
+    text-align: center;
+font-family: Work Sans;
+font-size: 45px;
+font-weight: 700;
+color: #FFF;
+margin-left: 20px;
+}
+.footer-nav >ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-nav li{
+    color: #FFF;
+    list-style: none;
+    margin-left: 30px;
+}
+
+.footer-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    row-gap: 20px;
+}
+.condition ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.condition li{
+    list-style: none;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.footer-last-title{
+    color: #FFF;
+    margin-top: 20px;
+}
+/* footer end  */
+
+
+
+@media screen and (max-width:576px) {
+   
+    
+}
 
